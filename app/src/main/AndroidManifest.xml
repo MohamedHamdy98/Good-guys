@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firebasetest">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_new"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_new_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Delete"></activity>
+        <activity android:name=".DeleteThreeActivity" />
+        <activity android:name=".DeleteTowActivity" />
+        <activity android:name=".showDataThreeActivity" />
+        <activity android:name=".showDataTowActivity" />
+        <activity android:name=".type_of_show_data_three_activity" />
+        <activity android:name=".type_of_show_data_tow_activity" />
+        <activity android:name=".type_of_show__data_activity" />
+        <activity android:name=".show_data_one_Activity" />
+        <activity android:name=".type_of_user_three_Activity" />
+        <activity android:name=".type_0f_user_tow_Activity" />
+        <activity android:name=".type_0f_user_one_Activity" />
+        <activity android:name=".Type_of_user_Activity" />
+        <activity android:name=".DeleteActivity" />
+        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".ShowDataActivity" /> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Choose_Show_Or_Insert_Data_Activity" />
+        <activity android:name=".PeopleActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".SiginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Firebase" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#042f4b"
+    android:orientation="vertical"
+    tools:context=".SiginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_volunteer_login">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="18sp"
+        android:textColorHint="@color/colorText"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_gmail_small"
+        android:textStyle="bold"
+        android:drawablePadding="10dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorText"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/enter_your_gmail"
+         />
+
+    <EditText
+        android:id="@+id/editText_password_sigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="18sp"
+        android:textColorHint="@color/colorText"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_key"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:textColor="@color/colorText"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/enter_your_password"
+         />
+
+
+    <Button
+        android:id="@+id/button_done_sign"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorText"
+        android:background="@drawable/button_login_selector"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/register" />
+
+    <Button
+        android:id="@+id/btn_back_from_sigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="60dp"
+        android:visibility="visible"
+        android:padding="10dp"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/button_login_corner"
+        android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

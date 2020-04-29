@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sons">
+        <item>عدد الأبناء</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="money">
+        <item>مصروفات الأسرة</item>
+        <item>ايجار سكن</item>
+        <item>كهرباء/غاز/مياه</item>
+        <item> انتقالات مدرسيه   </item>
+        <item> أقساط/ديون </item>
+        <item>علاج</item>
+        <item>أخري</item>
+
+    </string-array>
+    <string-array name="help">
+        <item>الإعانات الخارجية</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
